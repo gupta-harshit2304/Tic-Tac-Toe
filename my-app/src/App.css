@@ -1,0 +1,30 @@
+.block{
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    background-color: antiquewhite;
+}
+
+.row{
+    display: flex;
+    
+}
+
+.board{
+     /* padding-top: 150px; */
+    padding-left: 20px; 
+    place-content: center;
+}
+
+body{
+    background-color: bisque;
+}
